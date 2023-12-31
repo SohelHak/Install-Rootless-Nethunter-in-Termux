@@ -211,3 +211,8 @@ This repository is licensed under [MIT License](LICENSE).
 Special thanks to the contributors and the Kali NetHunter community for their valuable contributions and support.
 
 Feel free to explore the contents, follow the installation steps, and begin your Kali NetHunter journey in the Termux environment. Happy hacking!
+
+<!-- Repository Topics -->
+## Repository Topics
+
+Tags: Kali NetHunter, Termux, Installation Guide, Error Resolution, Linux, Hacking Tools, Penetration Testing, Security, Development, Open Source
