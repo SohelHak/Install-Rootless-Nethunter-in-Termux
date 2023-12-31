@@ -78,21 +78,22 @@ To get started with Kali NetHunter in Termux, follow these steps:
 
 ## Fixing Erros on Kali NetHunter
 1. **Update & Upgrade error in Kali NetHunter**
-   - First try to Update the Kali NetHunter Using `apt update` If you encounter an error like this
-     ```bash
-┌──(kali㉿localhost)-[~]
-└─$ apt update
-Ign:1 http://http.kali.org/kali kali-rolling InRelease
-Ign:1 http://http.kali.org/kali kali-rolling InRelease
-Ign:1 http://http.kali.org/kali kali-rolling InRelease     Err:1 http://http.kali.org/kali kali-rolling InRelease
-  Temporary failure resolving 'http.kali.org'
-Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-All packages are up to date.
-W: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/InRelease  Temporary failure resolving 'http.kali.org'
-W: Some index files failed to download. They have been ignored, or old ones used instead
-     ```
+   - If you encounter an error while trying to update Kali NetHunter using `apt update`, which looks similar to this:
+
+  ```bash
+  ┌──(kali㉿localhost)-[~]
+  └─$ apt update
+  Ign:1 http://http.kali.org/kali kali-rolling InRelease
+  Ign:1 http://http.kali.org/kali kali-rolling InRelease
+  Ign:1 http://http.kali.org/kali kali-rolling InRelease
+  Err:1 http://http.kali.org/kali kali-rolling InRelease
+    Temporary failure resolving 'http.kali.org'
+  Reading package lists... Done
+  Building dependency tree... Done
+  Reading state information... Done
+  All packages are up to date.
+  W: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/InRelease  Temporary failure resolving 'http.kali.org'
+  W: Some index files failed to download. They have been ignored, or old ones used instead
 
 ## Contributing
 
