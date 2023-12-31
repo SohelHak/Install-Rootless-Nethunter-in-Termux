@@ -37,7 +37,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
       [1] NetHunter ARMhf (full)
       [2] NetHunter ARMhf (minimal)
       [3] NetHunter ARMhf (nano)
-      Enter the image you want to install: 
+      Enter the image you want to install: 1
       ```
 
 ## Contributing
