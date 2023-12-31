@@ -32,26 +32,26 @@ To get started with Kali NetHunter in Termux, follow these steps:
 3. **Interface Selection**
     - Follow the prompts to select the desired version of Kali NetHunter. When prompted, you may encounter:
     
-      ```bash
+   ```bash
       [*] Checking device architecture ... 
 
       [1] NetHunter ARMhf (full)
       [2] NetHunter ARMhf (minimal)
       [3] NetHunter ARMhf (nano)
       Enter the image you want to install: 1
-      ```
+    ```
     
     - Additionally, you might encounter the following prompt related to deleting the downloaded rootfs file:
     
-      ```bash
-      [?] Delete Downloaded Rootfs file? [y/N]
-      ```
+   ```bash
+   [?] Delete Downloaded Rootfs file? [y/N]
+    ```
     
     - To proceed with the installation as intended, respond accordingly. Press `y` to delete the downloaded rootfs file or make your selection based on the provided options.
 
     - Additionally, during the installation process, upon successful completion, you might encounter an interface similar to the following:
 
-      ```bash
+   ```bash
       ##################################################
       ##                                              ##
       ##  88      a8P         db        88        88  ##
@@ -72,9 +72,8 @@ To get started with Kali NetHunter in Termux, follow these steps:
           - `nethunter kex passwd`    # To set the KeX password
           - `nethunter kex &`         # To start NetHunter GUI
           - `nethunter kex stop`      # To stop NetHunter GUI
-    ```
-
-    - Use the provided commands to      initiate and manage Kali NetHunter within your Termux environment.
+   ```
+   - Use the provided commands to initiate and manage Kali NetHunter within your Termux environment.
 
 ## Fixing Erros on Kali NetHunter
 1. **Update & Upgrade error in Kali NetHunter**
