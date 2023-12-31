@@ -184,7 +184,20 @@ To get started with Kali NetHunter in Termux, follow these steps:
   10. And press `CTRL` + `S` to save the changes, after that press `CTRL` + `x` to close the file
   11. Now try to `update` Kali NetHunter using this command `apt update`
   **Your Updating and upgrading error will be fixed after following this steps**
-  
+
+  2. **Kex dbus-x11 error**
+  - If your facing this type of error:
+
+
+	**To resolve this issue, Follow the below steps:**
+  1. Open termux and open NetHunter and enter `sudo apt install dbus-x11`, and enter the sudo password to download package
+  - After entering `sudo apt install dbus-x11` your issue will be resolved!
+  - Try `kex &` and try to connect the vnc server
+  - And if your encounter this error:
+	```bash
+		W: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/InRelease  Temporary failure resolving 'http.kali.org'
+		W: Some index files failed to download. They have been ignored, or old ones used instead
+  - Then try the above steps to resolve this error!
 ## Contributing
 
 Contributions to enhance and improve this installation guide are welcome! If you find any issues or have suggestions, feel free to submit pull requests or open issues in the repository.
