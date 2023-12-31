@@ -8,9 +8,12 @@ To get started with Kali NetHunter in Termux, follow these steps:
 
 1. **Requirements**
     - Ensure Termux is properly installed on your device.
-    - Grant storage access by running `termux-setup-storage`.
-    - Update packages with `pkg update && pkg upgrade -y`.
-    - Install `wget` using `pkg install wget -y`.
+    - Grant storage access by running
+      `termux-setup-storage`.
+    - Update packages with
+      `pkg update && pkg upgrade -y`.
+    - Install `wget` using
+      `pkg install wget -y`.
 
 2. **Kali NetHunter Installation**
     - Download the installation script:
