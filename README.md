@@ -32,7 +32,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
 3. **Interface Selection**
     - Follow the prompts to select the desired version of Kali NetHunter. When prompted, you may encounter:
     
-      ```
+      ```bash
       [*] Checking device architecture ... 
 
       [1] NetHunter ARMhf (full)
@@ -43,7 +43,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
     
     - Additionally, you might encounter the following prompt related to deleting the downloaded rootfs file:
     
-      ```
+      ```bash
       [?] Delete Downloaded Rootfs file? [y/N]
       ```
     
@@ -51,7 +51,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
 
     - Additionally, during the installation process, upon successful completion, you might encounter an interface similar to the following:
 
-      ```
+      ```bash
       ##################################################
       ##                                              ##
       ##  88      a8P         db        88        88  ##
