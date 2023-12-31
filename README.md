@@ -75,6 +75,25 @@ To get started with Kali NetHunter in Termux, follow these steps:
       ```
 
     - Use the provided commands to initiate and manage Kali NetHunter within your Termux environment.
+
+## Fixing Erros on Kali NetHunter
+1. **Update & Upgrade error in Kali NetHunter**
+   - First try to Update the Kali NetHunter Using `apt update` If you encounter an error like this
+     ```bash
+┌──(kali㉿localhost)-[~]
+└─$ apt update
+Ign:1 http://http.kali.org/kali kali-rolling InRelease
+Ign:1 http://http.kali.org/kali kali-rolling InRelease
+Ign:1 http://http.kali.org/kali kali-rolling InRelease     Err:1 http://http.kali.org/kali kali-rolling InRelease
+  Temporary failure resolving 'http.kali.org'
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+All packages are up to date.
+W: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/InRelease  Temporary failure resolving 'http.kali.org'
+W: Some index files failed to download. They have been ignored, or old ones used instead
+     ```
+
 ## Contributing
 
 Contributions to enhance and improve this installation guide are welcome! If you find any issues or have suggestions, feel free to submit pull requests or open issues in the repository.
