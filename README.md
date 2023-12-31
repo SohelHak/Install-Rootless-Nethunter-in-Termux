@@ -74,7 +74,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
           - `nethunter kex stop`      # To stop NetHunter GUI
     ```
 
-    - Use the provided commands to initiate and manage Kali NetHunter within your Termux environment.
+    - Use the provided commands to      initiate and manage Kali NetHunter within your Termux environment.
 
 ## Fixing Erros on Kali NetHunter
 1. **Update & Upgrade error in Kali NetHunter**
