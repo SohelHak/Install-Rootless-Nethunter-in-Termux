@@ -94,6 +94,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
   All packages are up to date.
   W: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/InRelease  Temporary failure resolving 'http.kali.org'
   W: Some index files failed to download. They have been ignored, or old ones used instead
+```
 
 ## Contributing
 
