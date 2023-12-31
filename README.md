@@ -1,5 +1,3 @@
-# Install-Rootless-Nethunter-in-Termux
-
 # Kali NetHunter Installation Guide for Termux
 
 Welcome to the Kali NetHunter Installation Guide for Termux repository! This repository aims to provide a comprehensive guide for installing Kali NetHunter within the Termux environment, ensuring a smooth and error-free installation process.
