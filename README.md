@@ -72,7 +72,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
           - `nethunter kex passwd`    # To set the KeX password
           - `nethunter kex &`         # To start NetHunter GUI
           - `nethunter kex stop`      # To stop NetHunter GUI
-```
+    ```
 
     - Use the provided commands to initiate and manage Kali NetHunter within your Termux environment.
 
@@ -94,11 +94,10 @@ To get started with Kali NetHunter in Termux, follow these steps:
   All packages are up to date.
   W: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/InRelease  Temporary failure resolving 'http.kali.org'
   W: Some index files failed to download. They have been ignored, or old ones used instead
-```
-
+    ```
 Then type `sudo su` in the terminal. You'll see an interface prompt like this: 
 `bash [sudo] password for kali: `
-Enter the password for the Kali user account and press `ENTER`. If you are unsure of the password, the default password for the Kali user account is `kali`
+Enter the password for the Kali user account and press `ENTER`. If you are unsure of the password, the default password for the Kali user account is `kali`.
 
 
 
