@@ -39,7 +39,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
 3. **Interface Selection**
 	- Follow the prompts to select the desired version of Kali NetHunter. When prompted, you may encounter:
 	
-	 ```bash
+	```bash
 		[*] Checking device architecture ... 
 	
 		[1] NetHunter ARMhf (full)
@@ -58,7 +58,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
 	
 	- Additionally, during the installation process, upon successful completion, you might encounter an interface similar to the following:
 	
-	 ```bash
+	```bash
 		##################################################
 		##                                              ##
 		##  88      a8P         db        88        88  ##
@@ -79,7 +79,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
 			- `nethunter kex passwd`    # To set the KeX password
 			- `nethunter kex &`         # To start NetHunter GUI
 			- `nethunter kex stop`      # To stop NetHunter GUI
-	 ```
+	```
 	 - Use the provided commands to initiate and manage Kali NetHunter within your Termux environment.
 
 ## Fixing Errors on Kali NetHunter
