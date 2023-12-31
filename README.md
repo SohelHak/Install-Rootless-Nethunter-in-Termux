@@ -21,6 +21,20 @@ To get started with Kali NetHunter in Termux, follow these steps:
     pkg install wget -y
   ```
 
+2. **Kali NetHunter Installation**
+  - Download the installation script:
+  ```bash
+    wget -O Install-Nethunter https://offs.ec/2MceZWr
+  ```
+  - Set executable permissions:
+  ```bash
+    chmod +x Install-Nethunter
+  ```
+  - Run the installation script:
+  ```bash
+    ./Install-Nethunter
+  ```
+
 3. **Interface Selection**
     - Follow the prompts to select the desired version of Kali NetHunter. When prompted, you may encounter:
     
