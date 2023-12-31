@@ -49,7 +49,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
     
     - To proceed with the installation as intended, respond accordingly. Press `y` to delete the downloaded rootfs file or make your selection based on the provided options.
 
-          - Additionally, during the installation process, upon successful completion, you might encounter an interface similar to the following:
+    - Additionally, during the installation process, upon successful completion, you might encounter an interface similar to the following:
 
       ```
       ##################################################
