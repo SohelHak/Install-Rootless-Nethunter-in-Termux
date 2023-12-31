@@ -39,7 +39,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
 3. **Interface Selection**
 	- Follow the prompts to select the desired version of Kali NetHunter. When prompted, you may encounter:
 	
-	```bash
+	 ```bash
 		[*] Checking device architecture ... 
 	
 		[1] NetHunter ARMhf (full)
@@ -58,7 +58,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
 	
 	- Additionally, during the installation process, upon successful completion, you might encounter an interface similar to the following:
 	
-	```bash
+	 ```bash
 		##################################################
 		##                                              ##
 		##  88      a8P         db        88        88  ##
@@ -79,12 +79,13 @@ To get started with Kali NetHunter in Termux, follow these steps:
 			- `nethunter kex passwd`    # To set the KeX password
 			- `nethunter kex &`         # To start NetHunter GUI
 			- `nethunter kex stop`      # To stop NetHunter GUI
-	```
-	 - Use the provided commands to initiate and manage Kali NetHunter within your Termux environment.
+	 ```
+   - type `nethunter` or `nh` to open Kali NetHunter
+   - Use the provided commands to initiate and manage Kali NetHunter within your Termux environment.
 
 ## Fixing Errors on Kali NetHunter
 
-  ### Update & Upgrade error in Kali NetHunter
+  ### 1. Update & Upgrade error in Kali NetHunter
 
   If you encounter an error while trying to update Kali NetHunter using `apt update`, which looks similar to this:
 
@@ -127,9 +128,63 @@ To get started with Kali NetHunter in Termux, follow these steps:
 	deb-src http://http.kali.org/kali kali-rolling main cont>
   ```
   6. And press `CTRL` + `S` to save the changes, after that press `CTRL` + `x` to close the file
-  7. After that enter `cd /home/kali`
-  8. Now try to `update` your Kali NetHunter using `apt update`
+  7. After that enter `cd ..` to change the directory to `/etc`
+  8. Now Enter `nano resolv.conf` to open the `resolv.conf` File
+	   after opening `resolv.conf` you will find this type of similar content in the `resolv.conf` file
+  ```bash
+	# This is /run/systemd/resolve/stub-resolv.conf managed by>
+	# Do not edit.
+	#
+	# This file might be symlinked as /etc/resolv.conf. If you>
+	# /etc/resolv.conf and seeing this text, you have followed>
+	#
+	# This is a dynamic resolv.conf file for connecting local >
+	# internal DNS stub resolver of systemd-resolved. This fil>
+	# configured search domains.
+	#
+	# Run "resolvectl status" to see details about the uplink >
+	# currently in use.
+	#
+	# Third party programs should typically not access this fi>
+	# through the symlink at /etc/resolv.conf. To manage man:r>
+	# different way, replace this symlink by a static file or >
+	#
+	# See man:systemd-resolved.service(8) for details about th>
+	# operation for /etc/resolv.conf.
+	nameserver 127.0.0.53
+	options edns0 trust-ad
+	search whitedome.com.au
+  ```
+  9. Replace the whole content to this:
+  ```bash
+	# This is /run/systemd/resolve/stub-resolv.conf managed by>
+	# Do not edit.
+	#
+	# This file might be symlinked as /etc/resolv.conf. If you>
+	# /etc/resolv.conf and seeing this text, you have followed>
+	#
+	# This is a dynamic resolv.conf file for connecting local >
+	# internal DNS stub resolver of systemd-resolved. This fil>
+	# configured search domains.
+	#
+	# Run "resolvectl status" to see details about the uplink >
+	# currently in use.
+	#
+	# Third party programs should typically not access this fi>
+	# through the symlink at /etc/resolv.conf. To manage man:r>
+	# different way, replace this symlink by a static file or >
+	#
+	# See man:systemd-resolved.service(8) for details about th>
+	# operation for /etc/resolv.conf.
 
+	nameserver 8.8.8.8
+	# options edns0 trust-ad
+	# search whitedome.com.au
+  ```
+  10. And press `CTRL` + `S` to save the changes, after that press `CTRL` + `x` to close the file
+  11. Now try to `update` Kali NetHunter using this command `apt update`
+  **Your Updating and upgrading error will be fixed after following this steps**
+  
 ## Contributing
 
 Contributions to enhance and improve this installation guide are welcome! If you find any issues or have suggestions, feel free to submit pull requests or open issues in the repository.
