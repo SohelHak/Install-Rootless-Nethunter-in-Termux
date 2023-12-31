@@ -75,7 +75,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
    ```
    - Use the provided commands to initiate and manage Kali NetHunter within your Termux environment.
 
-## Fixing Erros on Kali NetHunter
+## Fixing Errors on Kali NetHunter
 1. **Update & Upgrade error in Kali NetHunter**
    - If you encounter an error while trying to update Kali NetHunter using `apt update`, which looks similar to this:
 
@@ -98,8 +98,23 @@ Then type `sudo su` in the terminal. You'll see an interface prompt like this:
 `bash [sudo] password for kali: `
 Enter the password for the Kali user account and press `ENTER`. If you are unsure of the password, the default password for the Kali user account is `kali`.
 
-
-
+After entering `bash sudo su` and Password your the superuser
+now change the directory to `bash /etc/apt` by entering `bash cd /etc/apt` now enter `bash ls`
+you saw a file named `badh sources.list` open the file using `bash nano sources.list`
+In the file you saw this type of content:
+```bash
+deb http://http.kali.org/kali kali-rolling main contrib no>
+# For source package access, uncomment the following line
+# deb-src http://http.kali.org/kali kali-rolling main cont>
+```
+Replace the whole content to this
+```bash
+deb http://http.kali.org/kali kali-rolling main contrib no>
+# For source package access, uncomment the following line
+deb-src http://http.kali.org/kali kali-rolling main cont>
+```
+And press `CTRL` + `S` after that press `CTRL` + `x`
+after that enter `bash cd`
 ## Contributing
 
 Contributions to enhance and improve this installation guide are welcome! If you find any issues or have suggestions, feel free to submit pull requests or open issues in the repository.
