@@ -188,10 +188,9 @@ To get started with Kali NetHunter in Termux, follow these steps:
   2. **Kex dbus-x11 error**
   - If your facing this type of error:
 
-![IMG_8721](https://github.com/SohelHak/Install-Rootless-Nethunter-in-Termux/assets/155261518/53eabe9e-909d-4370-85e9-33ff79f39b82)
-
-
-	**To resolve this issue, Follow the below steps:**
+  ![IMG_8721](https://github.com/SohelHak/Install-Rootless-Nethunter-in-Termux/assets/155261518/53eabe9e-909d-4370-85e9-33ff79f39b82)
+  
+  **To resolve this issue, Follow the below steps:**
   1. Open termux and open NetHunter and enter `sudo apt install dbus-x11`, and enter the sudo password to download package
   - After entering `sudo apt install dbus-x11` your issue will be resolved!
   - Try `kex &` and try to connect the vnc server
