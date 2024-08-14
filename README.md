@@ -83,7 +83,7 @@ To get started with Kali NetHunter in Termux, follow these steps:
    - type `nethunter` or `nh` to open Kali NetHunter
    - Use the provided commands to initiate and manage Kali NetHunter within your Termux environment.
 
-## Fixing Errors on Kali NetHunter
+## Fixing Common Errors on Kali NetHunter
 
   ### 1. Update & Upgrade error in Kali NetHunter
 
