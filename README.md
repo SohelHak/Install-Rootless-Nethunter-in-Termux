@@ -196,8 +196,8 @@ To get started with Kali NetHunter in Termux, follow these steps:
   - Try `kex &` and try to connect the vnc server
   - And if your encounter this error:
 	```bash
-W: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/InRelease  Temporary failure resolving 'http.kali.org'
-W: Some index files failed to download. They have been ignored, or old ones used instead```
+    W: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/InRelease  Temporary failure resolving 'http.kali.org'
+    W: Some index files failed to download. They have been ignored, or old ones used instead
   - Then try the above steps to resolve this error!
 ## Contributing
 
